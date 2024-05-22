@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.login-container {
+  width: 90%;
+  max-width: 1140px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.login-img-container {
+  flex-basis: 60%;
+}
+
+.login-img {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+
+.form-container {
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form {
+  width: 400px;
+  box-shadow: 0px 4px 16px 0px;
+  padding: 40px 30px;
+  border-radius: 4px;
+}
+
+.logo-img {
+  display: block;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.username-input {
+  height: 40px;
+  padding: 8px 6px;
+  background-color: #d7dfe9;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.password-input {
+  height: 40px;
+  padding: 8px 6px;
+  background-color: #d7dfe9;
+}
+
+.login-btn {
+  width: 100%;
+  height: 40px;
+  background-color: #0b69ff;
+  color: white;
+  border: 0;
+  outline: 0;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.err-msg {
+  font-size: 14px;
+  margin-top: 0;
+  color: #ff0b37;
+  text-transform: capitalize;
+}
